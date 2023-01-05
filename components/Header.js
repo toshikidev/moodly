@@ -11,7 +11,7 @@ const Header = () => {
     <div className="w-full px-4 py-3 white-grained flex items-center justify-between flex-col lg:flex-row xl:flex-row">
       <h1 className="text-3xl font-bold d-4 mt-[-15px] px-1">Moodly</h1>
       <div className="flex items-center">
-        <Btn href="https://twitter.com/saviomartin7">
+        {/* <Btn href="https://twitter.com/saviomartin7">
           <div className="px-3 py-[7px] bg-white item border border-[#ccc] rounded-md flex items-center justify-center">
             <img
               src="https://avatars.githubusercontent.com/saviomartin?s=30"
@@ -26,8 +26,8 @@ const Header = () => {
               </p>
             </div>
           </div>
-        </Btn>
-        <Btn className="!ml-2">
+        </Btn> */}
+        {/* <Btn className="!ml-2">
           <a href="https://www.buymeacoffee.com/saviomartin" target="_blank">
             <img
               src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
@@ -35,7 +35,7 @@ const Header = () => {
               className="h-[50px]"
             />
           </a>
-        </Btn>
+        </Btn> */}
       </div>
     </div>
   );

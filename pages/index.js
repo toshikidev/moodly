@@ -18,17 +18,17 @@ const index = () => {
       </div>
       <div className="w-full p-4 white-grained mt-[60px] flex items-center justify-center flex-col">
         <h2 className="text-xl">
-          Made by{" "}
+          Made with <span className="heart"></span>💖 by{" "}
           <a
-            href="https://twitter.com/saviomartin7"
+            href="https://www.toshiki.dev"
             target="_blank"
             className="continuous-3 font-bold text-[#5363BB]"
           >
-            @saviomartin7
+            Anda Toshiki
           </a>
         </h2>
 
-        <div className="flex items-center justify-center mt-5 flex-col">
+        {/* <div className="flex items-center justify-center mt-5 flex-col">
           <h3 className="font-bold">Sponsor</h3>
 
           <Btn href="https://devdojo.com/">
@@ -38,7 +38,7 @@ const index = () => {
               className="h-[45px]"
             />
           </Btn>
-        </div>
+        </div> */}
       </div>
     </div>
   );
